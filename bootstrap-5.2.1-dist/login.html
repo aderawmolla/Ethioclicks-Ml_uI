@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.min.js">
+    </script>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/css/bootstrap-multiselect.css"/>
+    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+</head>
+<body>
+    <div class="container">
+        <!-- This button is used to show/hide the sidebar -->
+        <button type="button" class="sidebar-toggle pull-left visible-xs">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </button>
+        <!-- Layout -->
+        <div class="row content">
+          <div class="sidebar col-xs-12 col-sm-3 col-md-3 col-lg-3">Here the sidebar</div>
+          <div class="main col-xs-12 col-sm-9 col-md-9 col-lg-9">Here the main content</div>
+        </div>
+      </div>
+ <script>
+      $(document.body).on('click', 'button.sidebar-toggle', function() {
+        $(".content").toggleClass('open-sidebar');
+      });
+      </script>
+</body>
+</html>
+

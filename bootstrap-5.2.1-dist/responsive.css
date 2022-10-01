@@ -100,7 +100,7 @@
                 flex-direction: column;
             }
             #imgandhead .images .outer img{
-                width:87.5vw;
+                width:91.5vw;
                 height: 250px;  
             }
             #imgandhead .images .inner{ 
@@ -108,7 +108,7 @@
                 flex-direction: column;
             }
             #imgandhead .images .inner  img{
-                width:87.5vw;
+                width:91.5vw;
                 height: 250px;
             }
             #mapandform {
@@ -149,6 +149,7 @@
                 margin-left: auto;
                 max-width: 1170px;
                 padding: 80px 0px;
+                padding-bottom: 300px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -188,7 +189,12 @@
                 margin-bottom: 15px;
             
                 }
-               
+                #imgandhead .text2 {
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 20px;
+                }
+        
                 .wrapper {
                     width: auto;
                     box-shadow: 0 12px 35px rgba(0,0,0,0.1);
@@ -258,6 +264,10 @@
                 #imgandhead .images div.text3 {
                     z-index: 0;
                 }
+                #footer .footercontainer {
+                    padding-bottom:300px;
+                  }
+               
             }
            @media (min-width:991px){
 
@@ -265,6 +275,10 @@
                 vertical-align: middle;
                 border-style: none;
             }
+            #footer .footercontainer {
+                padding-bottom:250px;
+              }
+           
         }
         @media(max-width:478px) {
             #search .insidecontainer1{
@@ -288,6 +302,10 @@
                 padding-bottom: 0px;
                 z-index: 0;     
             }
+            #footer .footercontainer {
+                padding-bottom:500px;
+              }
+           
             #imgandhead {
                 margin: 0;
                 display: flex;
@@ -295,5 +313,34 @@
                 justify-content: space-between;
                 margin-bottom: 150px;
             }
+            .beforesearch {
+
+                width: 92vw;
+            }
+
+        }
+        @media (width:820px){ 
+            #footer .footercontainer {
+                padding-bottom:700px;
+              }
+
+        }
+        @media (width:393px ){ 
+            #footer .footercontainer {
+                padding-bottom:100px;
+              }
+
+        }
+        @media (width:375px ){ 
+            #footer .footercontainer {
+                padding-bottom:100px;
+              }
+
+        }
+        @media (width:414px ){ 
+            #footer .footercontainer {
+                padding-bottom:100px;
+              }
+
         }
     

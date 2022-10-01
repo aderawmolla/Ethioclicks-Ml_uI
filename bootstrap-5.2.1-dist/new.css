@@ -734,7 +734,9 @@ height:511px;
     /* max-width: 33.333333%; */
     background-color: #2C3E50 !important;
 }
-
+#mapandform > div.head{
+    background-color: #E5E5E5;
+}
 
 #mapandform .form h3{
     text-align: left;
@@ -991,7 +993,8 @@ height:511px;
         color: #ccc;
         border-top-color: rgba(0,0,0,.2);
         background-color: #2C3E50;
-    
+        margin-top: 0px;
+        
     }
     #footer .footercontainer{
         text-align: left;
@@ -1006,8 +1009,9 @@ height:511px;
         margin-right: auto;
         margin-left: auto;
         max-width: 1170px;
+        margin-top: 100px;
         padding-top:80px;
-        padding-bottom: 200px;
+        padding-bottom: 300px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
