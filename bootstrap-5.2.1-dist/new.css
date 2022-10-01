@@ -981,20 +981,23 @@ height:511px;
     height: 42px;  
     }
     #footer{
-        font-weight: 400;
+         font-weight: 400;
         text-align: left;
         font-size: .875rem;
         line-height: 1.5;
         font-family: 'Roboto', sans-serif;
         box-sizing: border-box;
         display: block;
-        position: relative;
         border-top: 5px solid rgba(0,0,0,.2);
         color: #ccc;
         border-top-color: rgba(0,0,0,.2);
         background-color: #2C3E50;
         margin-top: 0px;
-        
+        margin-bottom: 0px;
+        position:sticky;
+        top:50; 
+     
+    
     }
     #footer .footercontainer{
         text-align: left;
@@ -1009,9 +1012,9 @@ height:511px;
         margin-right: auto;
         margin-left: auto;
         max-width: 1170px;
-        margin-top: 100px;
+        margin-top: 0px;
         padding-top:80px;
-        padding-bottom: 300px;
+        padding-bottom: 100px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
