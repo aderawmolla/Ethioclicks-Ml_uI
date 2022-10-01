@@ -36,7 +36,7 @@ justify-content: space-between;
 padding: 1vw 8vw;
 align-items: center; 
 box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
-z-index: 99;
+z-index:99;
 
 }
 nav img{

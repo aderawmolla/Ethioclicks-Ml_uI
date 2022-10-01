@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"
+></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.min.js">
+</script>
+<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/css/bootstrap-multiselect.css"/>
+    
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+    
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="new.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"
+  ></script> -->
+    <style>
+  .dropdown:hover .dropdown-menu {
+       display:block; 
+  
+    }
+    .dropdown:hover .dropdown-menu {
+       display:block; 
+    }
+   
+  .navbar { 
+    position: sticky;
+    top: 0;
+    z-index:2
+  }
+    @media(max-width:991px) {
+  .navbar{ 
+    background-color:#2C3E50;
+    opacity: 100;
+    position: sticky;
+    top: 0;
+    z-index:2;
+    background-position:top;
+   }
+   }
+  .nav-bar .dropdown-menu{ 
+    background-color: #2C3E50;
+  }
+  .nav-stop {
+    width: 100vw;
+    position:fixed;
+    top:0;
+    background-color: #2C3E50;
+    z-index:100;
+    transition: 0.3s ease-in-out;
+}
+
+#navbarResponsive > ul > li:nth-child(4) > div > button{ 
+  color:#fff;
+}
+
+
+</style>
+   
+  </head>
+   <body>
+
+    <section id="nav1">
+        <div>
+            <li>
+                <div class="dropdown">
+                  <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   All cities
+                </button>
+                    <ul class="dropdown-menu m-3">
+                            <li><a class="dropdown-item " href="#">Addiss Ababa</a></li>
+                            <li><a class="dropdown-item " href="#">BahirDar</a></li>
+                            <li><a class="dropdown-item " href="#">Jimma</a></li>
+                            <li><a class="dropdown-item " href="#">Mekele</a></li>
+                            <li><a class="dropdown-item " href="#">Hawassa</a></li>
+                            <li><a class="dropdown-item " href="#">Jijiga</a></li>
+                    </ul>
+                  </div>
+            </li>
+        </div>
+        <div class="nav1B">
+            <li>
+              <a href="#"><i class="icon-call"></i> +1800-123-7890</a>
+            </li>
+            <li>
+              <a href="#"><i class="icon-download-alt"></i> Download App</a>
+            </li>
+            <li sell>
+                <div class="dropdown">
+                    <button class="btn sell " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     sell/rent your property
+                    </button>
+                      <ul class="dropdown-menu m-3">
+
+                        <div class="dropdown-item w-50 h-50" >
+                            Genuine Clients, 100% Trust Assurance and Lowest<br>
+                             Fees on the Market. <br><a href="#" class="more-link font-secondary" style="border-bottom-style: dotted;">Learn More →</a>
+                            </div>
+                      </ul>
+                    </div>
+            </li>
+            <li><a href="#" class="">Login/Register</a></li>
+        <div>  
+    </section> 
+     <section class="video">
+      <nav class="static navbar navbar-expand-lg navbar-dark ">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img style="width:198px;height:100px"src="images/logo2.png" alt=""></a>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                 
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class=" nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item active">
+                 <div class="dropdown">
+
+                     <button class="btn dropdown-toggle btn-" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Properties
+                    </button>
+                       <ul class="dropdown-menu m-3">
+                               <li><a class=" dropdown-item " href="#">Condo Apartments</a></li>
+                               <li><a class="dropdown-item " href="#">Luxury Villas</a></li>
+                               <li><a class="dropdown-item " href="#">Premium Estates</a></li>
+                       </ul>
+                  </div>
+    
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Builders</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item active">
+                <a  class="nav-link" href="#">Listing</a>
+              </li>
+              <li class="nav-item active">
+                <a  class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section> 
+    <section id="text">
+          <div class="text1">
+            <h1>Your Dream Home.</h1>
+            <span class="upper" style="font-size: 18px; letter-spacing: 10px; color: rgba(255,255,255,0.9);">A Few Clicks Away.</span>
+          </div> 
+    </section>
+     
+     <section id="search" >
+       <div class="container1">
+         <div item>
+            <label for="">Type</label>
+            <br>
+             <span >rent</span>
+             <span>buy</span>
+         </div>
+           
+        <div class="insidecontainer1">
+         <div class="item">
+          <div class="container">
+          <label for="">Choose location</label>
+          <div class="bs-multiselect">
+            <select id = "multiselect" multiple = "multiple">
+            <option value = "Addiss"> Addis
+            </option>
+            <option value = "Bahirdar"> Bahirdar
+            </option>
+            <option value = "Jimma"> Jimma
+            </option>
+            <option value = "Mekele"> Mekele</option>
+            <option value = "Jijiga">Jijiga</option>
+            <optioan value = "Gonder">Gonder</optioan>
+            <option value = "Hawassa">Hawasa</option>
+            </select>
+            </div>
+          </div>
+         </div>
+           
+         <div class="item">
+          <div class="container">
+          <label for="">Property Type</label>
+          <div class="bs-multiselect">
+            <select id = "multiselct" multiple = "multiple">
+            <option value = "Apartment"> Apartment
+            </option>
+            <option value = "Villa">Villa
+            </option>
+            <option value = "Building"> Building
+            </option>
+            <option value = "Shop"> Shop</option>
+            <option value = "Office">Office</option>
+            </select>
+            </div>
+          </div>
+         </div>
+        </div>
+        <div class="insidecontainer1">
+         <div class="item">
+          <div class="container">
+          <label for="">Beds</label>
+          <div class="bs-multiselect">
+            <select id = "multislect" multiple = "multiple">
+            <option value = "1"> 1
+            </option>
+            <option value = "2">2
+            </option>
+            <option value = "3"> 3
+            </option>
+            <option value = "4"> 4</option>
+            <option value = "5">5+</option>
+            </select>
+            </div>
+          </div>
+        </div>
+         
+        <div class="item">
+        <div class="container">
+          <label for="">Baths</label>
+          <div class="bs-multiselect">
+            <select id = "multislct" multiple = "multiple">
+            <option value = "1"> 1
+            </option>
+            <option value = "2">2
+            </option>
+            <option value = "3"> 3
+            </option>
+            <option value = "4"> 4</option>
+            <option value = "5">5+</option>
+            </select>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        <div class="container2">
+          
+         <div class="beforesearch">
+           
+          <div class="wrapper">
+            <header>
+              <h2>Price Range</h2>
+            </header>
+              
+            <div class="price-input">
+              <div class="field">
+                <span>Min</span>
+                <input type="number" class="input-min" value="2500">
+              </div>
+      
+              <div class="separator">-</div>
+      
+              <div class="field">
+                <span>Max</span>
+                <input type="number" class="input-max" value="7500">
+              </div>
+            </div>
+      
+            <div class="slider">
+              <div class="progress"></div>
+            </div>
+      
+            <div class="range-input">
+              <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+              <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+            </div>
+      
+          </div>
+          <div class="wrapper">
+            <header>
+              <h2>Property Area</h2>
+            </header>
+              
+            <div class="price-input">
+              <div class="field">
+                <span>Min</span>
+                <input type="number" class="input-min" value="2500">
+              </div>
+      
+              <div class="separator">-</div>
+      
+              <div class="field">
+                <span>Max</span>
+                <input type="number" class="input-max" value="7500">
+              </div>
+            </div>
+      
+            <div class="slider">
+              <div class="progress"></div>
+            </div>
+      
+            <div class="range-input">
+              <input type="range" class="range-min" min="200" max="5000" value="200" step="100">
+              <input type="range" class="range-max" min="5001" max="10000" value="7500" step="100">
+            </div>
+      
+          </div>
+          </div>
+
+         <div class="search col-lg-2 col-md-12 clearfix">
+            <button class="button button-3d button-rounded btn-block nomargin" style="margin-top: 35px !important;">Search</button>
+            </div>
+        </div>
+         
+    </section>
+     <section id="container" >
+            
+          <div class="item item2">
+            <div>
+            <img src="logos/house.png" style="top:0;left:0;width:50px;height:50px;margin-right: 15px;" alt=""> 
+             </div>
+            <div class="text">
+             <h3>HASSLE FREE</h3>
+             <p>Canvas provides support for Native HTML5 Videos that can be added to a Full Width Background.</p>
+              </div>
+         </div> 
+         <div class="item item2">
+            <div>
+            <img src="logos/house.png" style="top:0;left:0;width:50px;height:50px;margin-right: 15px;" alt=""> 
+             </div>
+            <div class="text">
+             <h3>WELL CONSTRUCTED</h3>
+             <p>Display your Content attractively using Parallax Sections that have unlimited customizable areas.</p>
+              </div>
+         </div> 
+         <div class="item item2">
+            <div>
+            <img src="logos/house.png" style="top:0;left:0;width:50px;height:50px;margin-right: 15px;" alt=""> 
+             </div>
+            <div class="text">
+             <h3>FREE UTILITES</h3>
+             <p>You have complete easy control on each & every element that provides endless customization possibilities.</p>
+              </div>
+         </div> 
+         <div class="item item2">
+            <div>
+            <img src="logos/house.png" style="top:0;left:0;width:50px;height:50px;margin-right: 15px;" alt=""> 
+             </div>
+            <div class="text">
+             <h3>FLEXIBLE RENTALS</h3>
+             <p>Display your Content attractively using Parallax Sections that have unlimited customizable areas.</p>
+              </div>
+         </div> 
+         <div class="item item2">
+            <div>
+            <img src="logos/house.png" style="top:0;left:0;width:50px;height:50px;margin-right: 15px;" alt=""> 
+             </div>
+            <div class="text">
+             <h3>EASY FINANCING</h3>
+             <p>You have complete easy control on each & every element that provides endless customization possibilities.</p>
+              </div>
+         </div> 
+         <div class="item item2">
+            <div>
+            <img src="logos/house.png" style="top:0;left:0;width:50px;height:50px;margin-right: 15px;" alt=""> 
+             </div>
+            <div class="text">
+             <h3>SOLID PAPERWORK</h3>
+             <p>Canvas provides support for Native HTML5 Videos that can be added to a Full Width Background.</p>
+              </div>
+         </div> 
+     </section>
+     <section id="feature">
+      <div class="check">
+       <h3>Featured Properties</h3>
+       <div><a href="#" class="button button-small button-rounded button-border button-border-thin t500 nomargin" >Check All</a></div>
+      </div>
+      <div class="inform">
+        <div  class="imganddata img1">
+            <img class="img11" src="images/21.jpg" alt="">
+            <div class="data"> 
+             <div class="upper">
+                <div>
+                 <p>3 bedroom villa</p>
+                </div>
+                <div>
+                 <img src="logos/info.png" style="width:32;height:32;" alt="">
+                </div>
+                </div>
+                <span>Saminayk Area</span>
+                <div class="lower">
+                  <div class="item">Beds:3 </div>
+                  <div class="item">Baths:3</div>
+                  <div  class="item">Area:160 <span style="padding:4px;">sqm</span> </div>
+                  <div style="display:flex;flex-direction:row;flex-wrap:nowrap;justify-content: baseline;" class="item"><p>Pool:</p><span><img src="logos/check.png" style=" position: relative;
+                      top: 1px;";alt=""></span> </div>
+                  <div class="item" style="display:flex;flex-direction:row;flex-wrap:nowrap;justify-content: baseline;"><p>Internet:</p><span><img src="logos/check.png " alt=""></span> </div> 
+                  <div class="item" style="display:flex;flex-direction:row;flex-wrap:nowrap; justify-content:baseline"><p>Cleaning:</p><span><img src="logos/minus.png" alt=""></span></div>
+                </div>
+             </div>
+            </div>
+
+            <div class="imganddata img2">
+                <img class="img21" src="images/22.jpg" alt="">
+                <div class="data"> 
+                 <div class="upper">
+                    <div>
+                     <p>3 bedroom villa</p>
+                    </div>
+                    <div>
+                     <img src="logos/info.png" style="width:32;height:32;" alt="">
+                    </div>
+                    </div>
+                    <span>Saminayk Area</span>
+                    <div class="lower">
+                      <div class="item">Beds:3 </div>
+                      <div class="item">Baths:3</div>
+                      <div  class="item">Area:160 <span style="padding:4px;">sqm</span> </div>
+                      <div style="display:flex;flex-direction:row;flex-wrap:nowrap;justify-content: baseline;" class="item"><p>Pool:</p><span><img src="logos/check.png" style=" position: relative;
+                          top: 1px;";alt=""></span> </div>
+                      <div class="item" style="display:flex;flex-direction:row;flex-wrap:nowrap;justify-content: baseline;"><p>Internet:</p><span><img src="logos/check.png " alt=""></span> </div> 
+                      <div class="item" style="display:flex;flex-direction:row;flex-wrap:nowrap; justify-content:baseline"><p>Cleaning:</p><span><img src="logos/check.png" alt=""></span></div>
+                    </div>
+                 </div>
+                </div>
+     
+        <div class="imganddata img3">
+          <img class="img31" src="images/23.jpg" alt="">
+          <div class="data"> 
+           <div class="upper">
+              <div>
+               <p>3 bedroom villa</p>
+              </div>
+              <div>
+               <img src="logos/info.png" style="width:32;height:32;" alt="">
+              </div>
+              </div>
+              <span>Saminayk Area</span>
+              <div class="lower">
+                <div class="item">Beds:3 </div>
+                <div class="item">Baths:3</div>
+                <div  class="item">Area:160 <span style="padding:4px;">sqm</span> </div>
+                <div style="display:flex;flex-direction:row;flex-wrap:nowrap;justify-content: baseline;" class="item"><p>Pool:</p><span><img src="logos/check.png" style=" position: relative;
+                    top: 1px;";alt=""></span> </div>
+                <div class="item" style="display:flex;flex-direction:row;flex-wrap:nowrap;justify-content: baseline;"><p>Internet:</p><span><img src="logos/check.png " alt=""></span> </div> 
+                <div class="item" style="display:flex;flex-direction:row;flex-wrap:nowrap; justify-content:baseline"><p>Cleaning:</p><span><img src="logos/check.png" alt=""></span></div>
+              </div>
+           </div>
+          </div>
+         </div>
+     </section>
+      <section id="imgandhead">
+         <div class="text2">
+          <h3 >Special Offers on Villa Long Term Rentals &amp; Lease Agreements</h3>
+          <a href="#" class="button button-dark button-large button-rounded">Contact Now</a>
+        </div>
+         <div class="images">
+          <div class="outer">
+          <div class="item" style="position:relative;"  ><img class="img1" src="/images/31.jpg" alt="">
+            <div class="text3">
+              <h3 >California</h3>
+              <span >23 Properties</span>
+            </div>
+          </div>
+          <div class="item" style="position:relative" ><img  class="img2" src="/images/32.jpg" alt="">
+            <div class="text3">
+              <h3 >New York</h3>
+              <span >12  Properties</span>
+            </div>
+          </div>
+        </div>
+          <div class="inner">
+          <div class="item" style="position:relative" ><img  src="/images/33.jpg" alt="">
+            <div class="text3">
+              <h3 >San Fransisco</h3>
+              <span >8 Properties</span>
+            </div>
+          </div>
+          <div class="item" style="position:relative" ><img src="/images/34.jpg" alt="">
+            <div class="text3">
+              <h3 >Texas</h3>
+              <span >31 Properties</span>
+            </div>
+          </div>
+          <div class="item" style="position:relative" ><img  src="/images/35.jpg" alt="">
+            <div class="text3">
+              <h3 >New Orleans</h3>
+              <span >19 Properties</span>
+            </div>
+          </div>
+        </div>
+        </div>
+         </div>
+      </section>
+      <section id="mapandform">
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118156.12461345365!2d37.3817939845252!3d11.550043784891113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1644ce107991537d%3A0x3e8bedd070a29619!2sBahir%20Dar%20University%20Poly%20Campus!5e0!3m2!1sen!2set!4v1664232573555!5m2!1sen!2set" width="40vw" height="511px" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">have frame place</iframe>
+        </div>
+        <div class="head">
+          <div style="padding: 40px;">
+<h4 class="font-body t600 ls1">Our Headquarters</h4>
+<div style="font-size: 15px; line-height: 1.7;">
+<address style="line-height: 1.7;">
+<strong>North America:</strong><br>
+795 Folsom Ave, Suite 600<br>
+San Francisco, CA 94107.<br><br>
+<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
+<abbr title="Email Address"><strong>Email:</strong></abbr> real-estate@canvas.com
+</address>
+<div class="clear topmargin-sm"></div>
+<h4 class="font-body t500" style="font-size: 17px; margin-bottom: 10px;">Working Hours:</h4>
+<abbr title="Mondays to Fridays"><strong>Mon-Fri:</strong></abbr> 10AM to 6PM<br>
+<abbr title="Saturday"><strong>Saturday:</strong></abbr> 11AM to 3PM<br>
+<abbr title="Sunday"><strong>Sunday:</strong></abbr> Closed
+</div>
+</div>
+        </div>
+        <div class="form">
+          <h3 class="capitalize ls1 t400">Get a Quick Quote</h3>
+          <input type="text" class="fullname required sm-form-control input-block-level not-dark" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Full Name">
+          <input type="text" class="fullname required sm-form-control input-block-level not-dark" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Email Address">
+          <input type="text" class="fullname required sm-form-control input-block-level not-dark" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="phonenumber +2519212223">
+          <textarea class=" txtarea required sm-form-control input-block-level not-dark short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="5" cols="30" placeholder="What are you Looking for? (Ex: Villa on the Beach)"></textarea>
+          <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-rounded button-light button-white nomargin" value="submit">Send Email</button>
+        </div>
+      </section>
+      <section id="companyandbuilders">
+        <div class="companyandtabs">
+          <div class="tabs">
+            <span class="toggle active" >Why us</span>
+            <span class="toggle" >Properties</span>
+            <span class="toggle">Legal</span>
+          </div>
+          <div class="allcompanies">
+            <div class="company active">
+             <div class="tab-content clearfix ui-tabs-panel ui-corner-bottom ui-widget-content" id="realestate-tab-1" aria-labelledby="ui-id-2" role="tabpanel" aria-hidden="false" >
+               <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.
+               </p><div class="col_one_fourth nobottommargin center">
+               <div class="counter ls1 t600" style="color: #D2D2D2;"><span data-from="100" data-to="964" data-refresh-interval="50" data-speed="2000">964</span></div>
+               <h5>Floors Built</h5>
+               </div>
+               <div class="col_one_fourth nobottommargin center">
+               <div class="counter ls1 t600" style="color: #D2D2D2;"><span data-from="100" data-to="8514" data-refresh-interval="50" data-speed="2500">8514</span></div>
+               <h5>Employees</h5>
+               </div>
+               <div class="col_one_fourth nobottommargin center">
+               <div class="counter ls1 t600" style="color: #D2D2D2;"><span data-from="100" data-to="458" data-refresh-interval="50" data-speed="3500">458</span></div>
+               <h5>Happy Clients</h5>
+               </div>
+               <div class="col_one_fourth nobottommargin center col_last">
+               <div class="counter ls1 t600" style="color: #D2D2D2;"><span data-from="14" data-to="159" data-refresh-interval="15" data-speed="2700">159</span></div>
+               <h5>Cities Served</h5>
+               </div>
+               </div>
+            </div>
+            <div class="company">
+             <div class="tab-content clearfix ui-tabs-panel ui-corner-bottom ui-widget-content" id="realestate-tab-2" aria-labelledby="ui-id-3" role="tabpanel" aria-hidden="false">
+               <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+               <div class="row clearfix">
+               <div class="col-md-4">
+               <ul class="iconlist nobottommargin">
+               <li><i class="icon-ok"></i> 100% Assurance</li>
+               <li><i class="icon-ok"></i> Hard Working</li>
+               <li><i class="icon-ok"></i> Trustworthy</li>
+               </ul>
+               </div>
+               <div class="col-md-4">
+               <ul class="iconlist nobottommargin">
+               <li><i class="icon-ok"></i> Intelligent</li>
+               <li><i class="icon-ok"></i> Always Curious</li>
+               <li><i class="icon-ok"></i> Perfectionists</li>
+               </ul>
+               </div>
+               <div class="col-md-4">
+               <ul class="iconlist nobottommargin">
+               <li><i class="icon-ok"></i> Friendly &amp; Helpful</li>
+               <li><i class="icon-ok"></i> Accomodating Nature</li>
+               <li><i class="icon-ok"></i> Available 24x7</li>
+               </ul>
+               </div>
+               </div>
+               </div>
+ 
+            </div>
+            <div class="company">
+             <div class="col-md-7 bottommargin-sm">
+               <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor.</p>
+               <div class="clear-bottommargin-sm">
+               <div class="row clearfix">
+               <div class="col-md-6 bottommargin-sm">
+               <address>
+               <strong>Headquarters:</strong><br>
+               795 Folsom Ave, Suite 600<br>
+               San Francisco, CA 94107<br>
+               </address>
+               </div>
+               <div class="col-md-6 bottommargin-sm">
+               <abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
+               <abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
+               <abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+               </div>
+               </div>
+               </div>
+               </div>  
+            </div>
+         </div>
+        </div>
+        <div class="builders">
+          <h4 class="center">Top Builders</h4>
+          <div class="img">
+           <img src="images/41.png" alt="">
+          </div>
+          <div class="img">
+            <img src="images/42.png" alt="">
+           </div>
+           <div class="img">
+            <img src="images/43.png" alt="">
+           </div>
+           <div class=>
+            <img src="images/44.png" alt="">
+           </div>
+        </div>
+      </section>
+      <section id="footer">
+          <div class="footercontainer">
+             <div class="item logo">
+               <img style="width:159;height:80px;margin-bottom: 20px;"src="images/logo2.png" alt="">
+              <p class="p1">We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards with a Retina &amp; Responsive Approach. Browse the amazing Features this template offers.</p>
+             <p class="p2 ls1 t300" style="opacity: 0.6; font-size: 13px;">Copyrights © 2017 Canvas: Real Estate</p>
+             </div>
+              <div class="item location">
+                <div class="col_half">
+                  <h4 class="ls1 t400 uppercase">Popular Locations</h4>
+                  <div class="row">
+                  <div class="col-6 bottommargin-sm widget_links widget_real_estate_popular">
+                  <ul>
+                  <li><a href="#"><i class="icon-map-marker2"></i> California</a></li>
+                  <li><a href="#"><i class="icon-map-marker2"></i> Nevada</a></li>
+                  <li><a href="#"><i class="icon-map-marker2"></i> Hawaii</a></li>
+                   <li><a href="#"><i class="icon-map-marker2"></i> Washington</a></li>
+                  <li><a href="#"><i class="icon-map-marker2"></i> Ottawa</a></li>
+                  <li><a href="#"><i class="icon-map-marker2"></i> Virginia</a></li>
+                  <li><a href="#"><i class="icon-map-marker2"></i> Ohio</a></li>
+                  </ul>
+                  </div>
+                  <div class="col-6 bottommargin-sm widget_links widget_real_estate_popular">
+                  <ul>
+                  <li><a href="#"><i class="icon-map-marker2"></i> Oregon</a></li>
+                  <li><a href="#"><i class="icon-map-marker2"></i> Colorado</a></li>
+                  <li><a href="#"><i class="icon-map-marker2"></i> Kentucky</a></li>
+                  <li><a href="#"><i class="icon-map-marker2"></i> Texas</a></li>
+                  <li><a href="#"><i class="icon-map-marker2"></i> Miami</a></li>
+                  <li><a href="#"><i class="icon-map-marker2"></i> New York</a></li>
+                  <li><a href="#"><i class="icon-map-marker2"></i> New Jersey</a></li>
+                  </ul>
+                  </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="item social">
+                <h4 class="ls1 t400 uppercase">Connect Socially</h4>
+                <div class="logo"> 
+                </div>
+                <input type="text" placeholder="enter your email">
+                <button>
+                   Subscribe
+                </button>
+              </div>
+          </div>
+      </section>
+   <script>
+      const navbar = document.querySelector('.static');
+       window.onscroll = () => {
+    if (window.scrollY >50) {
+        navbar.classList.add('nav-stop');
+    } else {
+        navbar.classList.remove('nav-stop');
+    }
+    };
+ </script>
+      <script>
+        $(document).ready(function() {
+        $('#multiselect,#multislct,#multiselct,#multislect').multiselect({
+        includeSelectAllOption: true,
+        enableFiltering: true,
+        enableCaseInsensitiveFiltering: true,
+        filterPlaceholder:'Search Here..'
+        });
+        });
+       </script>
+<script>
+let tabs = document.querySelectorAll("#companyandbuilders .companyandtabs .tabs .toggle"),
+        contents= document.querySelectorAll("#companyandbuilders .allcompanies .company");
+
+        tabs.forEach((tab,index) => {
+        tab.addEventListener("click", () => {
+            contents.forEach((content) => {
+            content.classList.remove("active");
+       });
+         tabs.forEach((tab) => {
+         tab.classList.remove("active");
+       });
+       contents[index].classList.add("active")
+       tabs[index].classList.add("active");
+  });
+}); 
+console.log(tabs)
+console.log(contents)
+</script>
+<script>
+const rangeInput = document.querySelectorAll(".range-input input"),
+priceInput = document.querySelectorAll(".price-input input"),
+range = document.querySelector(".slider .progress");
+let priceGap = 1000;
+
+priceInput.forEach(input =>{
+    input.addEventListener("input", e =>{
+        let minPrice = parseInt(priceInput[0].value),
+        maxPrice = parseInt(priceInput[1].value);
+        
+        if((maxPrice - minPrice >= priceGap) && maxPrice <= rangeInput[1].max){
+            if(e.target.className === "input-min"){
+                rangeInput[0].value = minPrice;
+                range.style.left = ((minPrice / rangeInput[0].max) * 100) + "%";
+            }else{
+                rangeInput[1].value = maxPrice;
+                range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
+            }
+        }
+    });
+});
+
+rangeInput.forEach(input =>{
+    input.addEventListener("input", e =>{
+        let minVal = parseInt(rangeInput[0].value),
+        maxVal = parseInt(rangeInput[1].value);
+
+        if((maxVal - minVal) < priceGap){
+            if(e.target.className === "range-min"){
+                rangeInput[0].value = maxVal - priceGap
+            }else{
+                rangeInput[1].value = minVal + priceGap;
+            }
+        }else{
+            priceInput[0].value = minVal;
+            priceInput[1].value = maxVal;
+            range.style.left = ((minVal / rangeInput[0].max) * 100) + "%";
+            range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
+        }
+    });
+});
+ </script>
+  </body>  
+</html>
