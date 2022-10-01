@@ -652,7 +652,7 @@ color: #fff;
 position: absolute; top: 50%; left:15%;width: auto; 
 padding-top: 0px; 
 padding-bottom: 0px; 
-z-index: 1;
+z-index: 0;
 
 }
 #imgandhead .images{
@@ -1006,12 +1006,13 @@ height:511px;
         margin-right: auto;
         margin-left: auto;
         max-width: 1170px;
-        padding: 80px 0;
+        padding-top:80px;
+        padding-bottom: 200px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-    
+     
     }
 #footer  .location li a{ 
     font-weight: 400;

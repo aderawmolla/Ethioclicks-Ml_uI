@@ -1,6 +1,6 @@
 
         @media (max-width:991px){
-
+           
             #feature  .inform .imganddata .lower{
             flex-direction: column;
             align-items:flex-start ;
@@ -71,6 +71,20 @@
             }
             #feature > div.inform > div.imganddata.img1> img{
                 width:45vw;
+            }
+            #imgandhead {
+                margin: 0px;
+                padding: 0px 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-bottom: 150px;
+            }
+            #feature {
+           
+                padding: 80px 15px;
+                margin: 0 0px;
+              
             }
          
             #imgandhead .images {
@@ -233,7 +247,17 @@
                 #feature .check a{ 
                     margin-top: 15px;
                 }
-            
+                #imgandhead {
+                    margin: 0px;
+                    padding: 0px 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    margin-bottom: 10px;
+                }
+                #imgandhead .images div.text3 {
+                    z-index: 0;
+                }
             }
            @media (min-width:991px){
 
@@ -262,8 +286,14 @@
                 width: auto;
                 padding-top: 0px;
                 padding-bottom: 0px;
-                z-index: 1;     
+                z-index: 0;     
             }
-            
+            #imgandhead {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-bottom: 150px;
+            }
         }
     
